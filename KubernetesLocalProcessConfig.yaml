@@ -1,0 +1,4 @@
+version: 0.1
+env:
+  - name: STATS_CACHE_SERVICE_HOST_CUSTOM
+    value: 128.0.1.0
