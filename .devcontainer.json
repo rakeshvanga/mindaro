@@ -8,6 +8,7 @@
 	},
 	
 	"extensions": [
+		"redhat.vscode-yaml",
 		"ms-kubernetes-tools.vscode-kubernetes-tools",
 		"ms-kubernetes-tools.vscode-aks-tools",
 		"mindaro.mindaro"
