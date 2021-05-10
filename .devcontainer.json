@@ -17,5 +17,5 @@
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"containerUser": "codespace",
 	"remoteUser": "codespace",
-	// "postCreateCommand": "curl -LO \"https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl\" && sudo install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl && rm -rf kubectl"
+	"postCreateCommand": "sudo apt-get install unzip -y"
 }
